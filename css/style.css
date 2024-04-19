@@ -1,9 +1,14 @@
 body {
-  background: white;
+  background: lightgoldenrodyellow;
   font-family: sans-serif;
   text-align: center;
 }
 
+.intro-container {
+  border: 1px solid white;
+  border-radius: 5px;
+  background: lightpink;
+}
 h2 {
   font-weight: normal;
 }
