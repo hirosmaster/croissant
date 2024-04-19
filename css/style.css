@@ -1,18 +1,42 @@
 body {
-  background: lightgoldenrodyellow;
+  background: lightblue;
   font-family: sans-serif;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.intro-container {
-  border: 1px solid white;
-  border-radius: 5px;
-  background: lightpink;
+h1 {
+  margin: 10px 15px;
 }
+
 h2 {
   font-weight: normal;
 }
 
 img {
   width: 250px;
+}
+
+.container {
+  background: white;
+  width: 500px;
+  padding: 10px 15px;
+  border: 1px solid white;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.menu-links {
+  a {
+    color: white;
+    font-weight: bolder;
+    margin: 5px 5px;
+  }
+}
+
+a {
+  color: goldenrod;
 }
